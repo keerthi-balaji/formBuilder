@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "moduleType": [
-    "jquery"
+    "node"
   ],
   "ignore": [
     "*",

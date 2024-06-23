@@ -1,5 +1,5 @@
 {
-  "name": "formBuilder",
+  "name": "formbuilder",
   "version": "3.19.7",
   "main": "dist/form-builder.min.js",
   "homepage": "https://formbuilder.online/",
@@ -100,7 +100,7 @@
     "prestart": "run-p build:vendor copy:lang",
     "start": "npm run start:devServer",
     "test": "jest --coverage",
-    "prepare": "[ \"$NODE_ENV\" = production ] && exit 0; husky install",
+    "prepare": "IF \"%NODE_ENV%\"==\"production\" exit 0; husky install",
     "pre-commit": "lint-staged"
   },
   "dependencies": {
