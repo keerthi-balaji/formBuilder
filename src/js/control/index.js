@@ -10,6 +10,8 @@ import controlTinymce from './textarea.tinymce'
 import controlQuill from './textarea.quill'
 import controlCustomButton from './customButton'
 import controlRangeSlider from './rangeSlider'
+import controlSignaturePad from './signaturePad'
+
 
 export default {
   controlAutocomplete,
@@ -24,4 +26,5 @@ export default {
   controlQuill,
   controlCustomButton,
   controlRangeSlider,
+  controlSignaturePad,
 }
